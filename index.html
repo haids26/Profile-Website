@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haidee Capili | Virtual Assistant Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .font-outfit {
+            font-family: 'Outfit', sans-serif;
+        }
+        .glass-panel {
+            background: rgba(232, 236, 215, 0.7); /* Using #e8ecd7 */
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(71, 102, 59, 0.1); /* Using #47663b */
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #1f4529 0%, #47663b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        ::selection {
+            background-color: #1f4529;
+            color: #eed3b1;
+        }
+        /* Custom scrollbar for better theme integration */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e8ecd7;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #47663b;
+            border-radius: 4px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+<body class="bg-[#e8ecd7] text-[#1f4529] overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
